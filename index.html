@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <title>Lake Tahoe</title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta charset="utf-8">
-    <meta name="description" content="Official Website for Lake Tahoe, California.">
-    <meta name-"viewport" content="width=device-width" />
-  </head>
-  <body>
-    <header id="top" class="main-header">
-      <span class="title fade-in">Journey Through the Sierra Nevada Mountains</span>
-      <h1 class=" fade-in-down">Lake Tahoe, California</h1>
-      <a href="#primary-content"><img class="arrow" src="img/arrow.svg" alt="Down arrow"></a>
-    </header>
 
-		<div class="primary-content t-border" id="primary-content">
-			<p class="intro">
-				Lake Tahoe is one of the most breathtaking attractions located in California. It's home to a number of ski resorts, summer outdoor recreation, and tourist attractions. Snow and skiing are a significant part of the area's reputation.
-			</p>
-			<a class="callout" href="#more">Find out more</a>
+<head>
+  <title>Lake Tahoe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Official Website for Lake Tahoe, California.">
+  <meta name- "viewport" content="width=device-width" />
+</head>
+
+<body>
+  <header id="top" class="main-header">
+    <span class="title fade-in">Journey Through the Sierra Nevada Mountains</span>
+    <h1 class=" fade-in-down">Lake Tahoe, California</h1>
+    <a href="#primary-content"><img class="arrow" src="img/arrow.svg" alt="Down arrow"></a>
+  </header>
+
+  <main>
+    <section class="primary-content t-border" id="primary-content">
+      <p class="intro">
+        Lake Tahoe is one of the most breathtaking attractions located in California. It's home to a number of ski resorts, summer outdoor recreation, and tourist attractions. Snow and skiing are a significant part of the area's reputation.
+      </p>
+      <a class="callout" href="#more">Find out more</a>
 
       <div class="wildlife wow fade-in" data-wow-delay="0.5s">
         <h2>Check out all the Wildlife</h2>
         <p>
           As spawning season approaches, the fish acquire a humpback and protuberant jaw. After spawning, they die and their carcasses provide a feast for gatherings of <a href="#mink">mink</a>, <a href="#bears">bears</a>, and <a href="#eagles">bald eagles</a>.
         </p>
-      </div><!-- End .wildlife -->
+      </div>
+      <!-- End .wildlife -->
 
-			<a class="callout" href="#wildlife">See the Wildlife</a>
-		</div><!-- End .primary-content -->
+      <a class="callout" href="#wildlife">See the Wildlife</a>
+    </section>
+    <!-- End .primary-content -->
 
-		<div class="secondary-content t-border group">
+    <section class="secondary-content t-border group">
       <div class="resorts fade-in-right wow" data-wow-delay=".5s">
         <img src="img/resort.jpg" alt="Resort">
         <h3>From Tents to Resorts</h3>
@@ -57,16 +62,23 @@
           <li>Pack light</li>
         </ol>
       </div>
-		</div><!-- End .secondary-content -->
+    </section>
+    <!-- End .secondary-content -->
+  </main>
 
-		<footer class="main-footer">
-			<p class="fade-in-up wow" data-wow-delay=".5s">All rights reserved to the state of <a href="#">California</a>.</p>
-			<a class="fade-in-up wow" data-wow-delay=".5s" href="#top">Back to top &raquo;</a>
-		</footer>
+  <footer class="main-footer">
+    <p class="fade-in-up wow" data-wow-delay=".5s">All rights reserved to the state of <a href="#">California</a>.</p>
+    <a class="fade-in-up wow" data-wow-delay=".5s" href="#top">Back to top &raquo;</a>
+  </footer>
 
-    <script src="JS/smooth-scroll.js"></script>
-    <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
-    <script src="JS/wow.min.js"></script>
-    <script>new WOW().init();</script>
-  </body>
+  <script src="JS/smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  <script src="JS/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
 </html>
