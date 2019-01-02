@@ -1,7 +1,7 @@
 # Team Treehouse Lake Tahoe
 This is my first project for the front-end development course by Team Treehouse.
 
-[Lake Tahoe](https://github.com/AlanBayWalker/lake-tahoe.git)
+[Lake Tahoe](https://alanbaywalker.github.io/lake-tahoe/)
 
 ## Getting Started
 
